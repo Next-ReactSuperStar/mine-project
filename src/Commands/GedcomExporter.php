@@ -43,7 +43,7 @@ class GedcomExporter extends Command
     public function handle()
     {
 
-         $dir = 'public/gedcom/exported';
+        $dir = 'public/gedcom/exported';
 
         $filename = $this->argument('filename').".GED";
 
